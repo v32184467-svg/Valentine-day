@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -328,6 +328,7 @@
                     pop.className = 'final-pop';
                     pop.innerHTML = "I LOVE YOU 💋";
                     pop.style.left = Math.random() * 90 + 'vw';
+                    pop.style.right = Math.random() * 90 + 'vw';
                     pop.style.top = Math.random() * 90 + 'vh';
                     pop.style.fontSize = (Math.random() * 20 + 20) + 'px';
                     document.body.appendChild(pop);
