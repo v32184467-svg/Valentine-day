@@ -336,7 +336,7 @@
                     pop.style.fontSize = (Math.random() * 20 + 20) + 'px';
                     document.body.appendChild(pop);
                     
-                    gsap.from(pop, { scale: 0, rotation: Math.random()*20-10, duration: 0.5, ease: "back.out" });
+                    gsap.from(pop, { scale: 1, rotation: Math.random()*20-10, duration: 0.8, ease: "back.out" });
                 }, i * 50);
             }
         }
